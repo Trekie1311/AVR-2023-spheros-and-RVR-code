@@ -1,0 +1,6 @@
+async function startProgram() {
+	await roll(0, 150, 4.29);
+	await roll(270, 125, 3.94);
+	await roll(180, 150, 4.29);
+	await roll(90, 125, 1);
+}
