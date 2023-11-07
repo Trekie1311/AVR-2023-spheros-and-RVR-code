@@ -1,0 +1,10 @@
+async function startProgram() {
+	startIRBroadcast(0, 1);
+	setMainLed({ r: 114, g: 0, b: 255 });
+	await delay(1);
+	setSpeed(50);
+	setHeading(0);
+	await delay(2);
+	stopIRBroadcast();
+	exitProgram();
+}
